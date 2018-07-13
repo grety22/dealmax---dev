@@ -1,0 +1,60 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "dealmax",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "FindDealIntent",
+                    "slots": [
+                        {
+                            "name": "area",
+                            "type": "AMAZON.AdministrativeArea"
+                        }
+                    ],
+                    "samples": [
+                        "find a deal in {area}",
+                        "deal nearby {area}",
+                        "get deal in {area}",
+                        "find deal in this {area}"
+                    ]
+                },
+                {
+                    "name": "CheckForDealIn",
+                    "slots": [
+                        {
+                            "name": "place",
+                            "type": "AMAZON.LocalBusiness"
+                        }
+                    ],
+                    "samples": [
+                        "open deals in {place}",
+                        "get deal for {place}",
+                        "check for deal in {place}"
+                    ]
+                },
+                {
+                    "name": "WelcomeIntent",
+                    "slots": [],
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
