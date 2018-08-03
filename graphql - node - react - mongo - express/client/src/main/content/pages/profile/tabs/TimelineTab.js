@@ -214,40 +214,7 @@ class TimelineTab extends Component {
                             animation: "transition.slideUpBigIn"
                         }}
                     >
-                        <Card className="w-full">
-                            <AppBar position="static" elevation={0}>
-                                <Toolbar className="pl-16 pr-8">
-                                    <Typography variant="subheading" color="inherit" className="flex-1">
-                                        Latest Activity
-                                    </Typography>
-                                    <Button color="inherit" size="small">See All</Button>
-                                </Toolbar>
-                            </AppBar>
-                            <CardContent className="p-0">
-                                <List>
-                                    {activities && activities.map((activity) => (
-                                        <ListItem key={activity.id} className="">
-                                            <Avatar alt={activity.user.name} src={activity.user.avatar}/>
-                                            <ListItemText
-                                                className="flex-1"
-                                                primary={(
-                                                    <div className="truncate">
-                                                        <Typography className="inline font-medium" color="primary" paragraph={false}>
-                                                            {activity.user.name}
-                                                        </Typography>
-
-                                                        <Typography className="inline ml-4" paragraph={false}>
-                                                            {activity.message}
-                                                        </Typography>
-                                                    </div>
-                                                )}
-                                                secondary={activity.time}
-                                            />
-                                        </ListItem>
-                                    ))}
-                                </List>
-                            </CardContent>
-                        </Card>
+                    
                     </FuseAnimateGroup>
                 </div>
             </div>

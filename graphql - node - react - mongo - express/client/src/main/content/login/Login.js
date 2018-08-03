@@ -81,19 +81,18 @@ class Login extends Component {
                     className={classNames(classes.intro, "flex flex-col flex-no-grow items-center p-16 text-center md:p-128 md:items-start md:flex-no-shrink md:flex-1 md:text-left")}>
 
                     <FuseAnimate animation="transition.expandIn">
-                        <img className="w-128 mb-32" src="assets/images/logos/fuse.svg" alt="logo"/>
+                        <img className="w-128 mb-32" src="assets/images/logos/dealmax.png" alt="logo"/>
                     </FuseAnimate>
 
                     <FuseAnimate animation="transition.slideUpIn" delay={300}>
                         <Typography variant="display2" color="inherit" className="font-light">
-                            Welcome to the FUSE!
+                            Welcome to the DealMax!
                         </Typography>
                     </FuseAnimate>
 
                     <FuseAnimate delay={400}>
                         <Typography variant="subheading" color="inherit" className="max-w-512 mt-16">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper nisl erat, vel convallis elit fermentum pellentesque. Sed mollis velit
-                            facilisis facilisis.
+                            Be heard, Be smart, Be Known
                         </Typography>
                     </FuseAnimate>
                 </div>

@@ -13,6 +13,7 @@ app.use(cors());
 
 // connect with mlab db
 mongoose.connect('mongodb://admin:DealMax2018@ds131551.mlab.com:31551/dealmax_db',{ useNewUrlParser: true });
+
 mongoose.connection.once('open',()=>{
     console.log('connected to DealMax database');
 })

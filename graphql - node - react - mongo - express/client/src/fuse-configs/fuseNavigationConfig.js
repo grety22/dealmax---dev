@@ -36,6 +36,14 @@ export const fuseNavigationConfig = [
                     'icon' : 'note',
                     'url'  : '/pages/invoices/modern'
             },
+            {
+                'id'      : 'pricing',
+                'title'   : 'Pricing Plan',
+                'type'    : 'item',
+                'icon'    : 'attach_money',
+                'url'     : '/pages/pricing/style-1'
+            }
+                  
         ]
     },
     // {

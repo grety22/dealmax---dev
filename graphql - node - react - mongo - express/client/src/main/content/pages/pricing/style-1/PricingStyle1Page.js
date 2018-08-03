@@ -90,16 +90,10 @@ class PricingStyle1Page extends Component {
                                         <div className="flex flex-col">
                                             <Typography variant="subheading" className="">
                                                 <span className="font-bold mr-4">10</span>
-                                                Projects
+                                                Deals
                                             </Typography>
-                                            <Typography variant="subheading" className="">
-                                                <span className="font-bold mr-4">10</span>
-                                                Pages
-                                            </Typography>
-                                            <Typography variant="subheading" className="">
-                                                <span className="font-bold mr-4">100</span>
-                                                Mb Disk Space
-                                            </Typography>
+                                            
+                                            
                                         </div>
                                     </CardContent>
 
@@ -133,16 +127,10 @@ class PricingStyle1Page extends Component {
                                         <div className="flex flex-col">
                                             <Typography variant="subheading" className="">
                                                 <span className="font-bold mr-4">20</span>
-                                                Projects
+                                                Deals
                                             </Typography>
-                                            <Typography variant="subheading" className="">
-                                                <span className="font-bold mr-4">20</span>
-                                                Pages
-                                            </Typography>
-                                            <Typography variant="subheading" className="">
-                                                <span className="font-bold mr-4">200</span>
-                                                Mb Disk Space
-                                            </Typography>
+                                            
+                                            
                                         </div>
                                     </CardContent>
 
@@ -175,16 +163,10 @@ class PricingStyle1Page extends Component {
                                         <div className="flex flex-col">
                                             <Typography variant="subheading" className="">
                                                 <span className="font-bold mr-4">40</span>
-                                                Projects
+                                                Deals
                                             </Typography>
-                                            <Typography variant="subheading" className="">
-                                                <span className="font-bold mr-4">40</span>
-                                                Pages
-                                            </Typography>
-                                            <Typography variant="subheading" className="">
-                                                <span className="font-bold mr-4">500</span>
-                                                Mb Disk Space
-                                            </Typography>
+                                            
+                                            
                                         </div>
                                     </CardContent>
 
